@@ -11,7 +11,7 @@ export const TechPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Typography variant='h4'>Frontend Development</Typography>
                     <Typography variant='h7' mt={2}>
-                        Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                        As a dedicated web developer, I am passionate about crafting engaging and user-friendly digital experiences. My expertise in frontend technologies allows me to bring your web projects to life with creativity and precision. Here are some of the key technologies I leverage to build beautiful and responsive websites:
                     </Typography>
 
                     <Grid container mt={2} gap={1}>
@@ -36,7 +36,7 @@ export const TechPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Typography variant='h4'>Backend Development</Typography>
                     <Typography variant='h7' mt={2}>
-                        Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                        Behind every great website, there's a robust backend infrastructure that ensures smooth functionality and data management. As a seasoned web developer, I'm well-versed in a variety of backend technologies to bring your projects to life. Here are the key backend technologies I leverage:
                     </Typography>
 
                     <Grid container mt={2} gap={1}>
@@ -61,7 +61,7 @@ export const TechPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Typography variant='h4'>iOS Development</Typography>
                     <Typography variant='h7' mt={2}>
-                        Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                        Creating captivating and functional mobile experiences for iOS devices is a passion of mine. As an iOS developer, I specialize in building native applications that combine seamless performance with intuitive user interfaces. Here's what you can expect from my iOS development expertise:
                     </Typography>
 
                     <Grid container mt={2} gap={1}>
@@ -84,7 +84,7 @@ export const TechPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Typography variant='h4'>Programming languages</Typography>
                     <Typography variant='h7' mt={2}>
-                        Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                        Throughout my journey as a developer, I've continually expanded my skill set by mastering various programming languages. These languages are the building blocks of the digital experiences I create, each offering unique capabilities and versatility. Here are some of the programming languages I've learned and applied in my career:
                     </Typography>
 
                     <Grid container mt={2} gap={1}>
@@ -104,10 +104,11 @@ export const TechPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Typography variant='h4'>Technologies</Typography>
                     <Typography variant='h7' mt={2}>
-                        Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                        In the world of development, having the right tools at your disposal is essential to create exceptional digital experiences. I'm committed to delivering high-quality work, and I rely on a range of software tools and platforms to achieve that goal. Here's a glimpse into the software I use in my development workflow:
                     </Typography>
 
                     <Grid container mt={2} gap={1}>
+                        <Chip label='Visual Studio Code' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                        
                         <Chip label='Git' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                        
                         <Chip label='Github' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                        
                         <Chip label='Jira' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                        
