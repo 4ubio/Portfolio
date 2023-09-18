@@ -13,6 +13,17 @@
     width: 5%;
 }
 
+.carousel_img {
+    width: 90%;
+}
+
+
+@media (min-width: 600px) {
+    .carousel_img {
+        width: 50%;
+    }
+}
+
 @media (min-width: 900px) {
     .img_me {
         margin-top: 0;
@@ -25,4 +36,10 @@
     .line {
         width: 3%;
     }
+
+    .carousel_img {
+        width: 30%;
+    }
 }
+
+
