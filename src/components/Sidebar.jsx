@@ -66,7 +66,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/' 
+                            to='/tech' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
@@ -76,7 +76,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/' 
+                            to='/tamfy' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
@@ -86,7 +86,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/' 
+                            to='/cloud' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
@@ -96,7 +96,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/' 
+                            to='/experience' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
@@ -106,7 +106,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/' 
+                            to='/workshops' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
@@ -116,7 +116,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/' 
+                            to='/awards' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 

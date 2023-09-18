@@ -4,8 +4,25 @@
     width: 50%;
 }
 
+.logo_education {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.line {
+    width: 5%;
+}
+
 @media (min-width: 900px) {
     .img_me {
         margin-top: 0;
+    }
+
+    .logo_education {
+        width: 50%;
+    }    
+
+    .line {
+        width: 3%;
     }
 }
