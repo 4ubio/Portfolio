@@ -1,6 +1,6 @@
-import { Grid, IconButton, Typography } from '@mui/material'
+import { Button, Grid, IconButton, Typography } from '@mui/material'
 import { AppLayout } from '../layout/AppLayout'
-import { GitHub, Instagram, LinkedIn, Mail, Phone } from '@mui/icons-material'
+import { GitHub, Instagram, LinkedIn, Mail, Phone, Visibility } from '@mui/icons-material'
 
 export const IndexPage = () => {
     return (
@@ -52,6 +52,24 @@ export const IndexPage = () => {
                     <Typography variant='h6' color='white'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla auctor justo sed eleifend. Vivamus maximus cursus accumsan. Integer dui neque, mollis vitae orci ut, porttitor volutpat urna. Sed sollicitudin neque quis maximus porttitor. Nam mi nibh, sagittis sit amet diam non, malesuada elementum turpis. In vitae lacus ac eros aliquam vehicula ut ac orci. Nam pulvinar commodo gravida. Aliquam erat volutpat. Donec ac enim tincidunt, malesuada lectus non, laoreet purus. Donec quis pulvinar justo. Cras quis est rutrum, volutpat metus in, ultricies sem. Suspendisse blandit, nunc et accumsan commodo, mi neque maximus orci, sit amet blandit nibh risus eu orci. Nam in rhoncus diam. Mauris mattis ultricies sapien, ut suscipit enim suscipit placerat.
                     </Typography>
+
+                    <Grid item textAlign='center' mt={2}>
+                        <Button
+                            sx={{
+                                backgroundColor: 'primary.main',
+                                color: 'primary.blue', 
+                                border: 'primary.blue', 
+                                ':hover': {
+                                    backgroundColor: 'primary.main',
+                                    color: 'primary.blue',
+                                    borderColor: 'primary.blue', 
+                                },
+                            }}
+                        >
+                            <Visibility />
+                            <Typography ml={2}>Check my CV</Typography>
+                        </Button>
+                    </Grid>
                 </Grid>
             </AppLayout>
         </>
