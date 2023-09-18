@@ -7,7 +7,8 @@ export const theme = createTheme({
     palette: {
         primary: {
             main: '#ffffff',
-            bg: '#f7f7fc'
+            bg: '#f7f7fc',
+            blue: '#3085C3'
         },
         error: {
             main: red.A400
@@ -20,7 +21,7 @@ export const theme = createTheme({
 theme.typography.h1 = {
     fontSize: '2.5rem',               //Mobile size
     '@media (min-width:600px)': {     //Tablets and higher sizes
-        fontSize: '6rem',
+        fontSize: '4rem',
     }
 };
 

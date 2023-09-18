@@ -1,0 +1,11 @@
+.img_me {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 50%;
+}
+
+@media (min-width: 900px) {
+    .img_me {
+        margin-top: 0;
+    }
+}
