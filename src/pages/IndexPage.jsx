@@ -6,7 +6,7 @@ export const IndexPage = () => {
     return (
         <>
             <AppLayout>
-                <Grid container>
+                <Grid container className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={7} >
                         <Typography variant='h4'>Nice to meet you 👋🏽, I'm</Typography>
                         <Typography variant='h1' color='primary.blue'>Sebastián Rubio</Typography>
@@ -18,7 +18,7 @@ export const IndexPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container mt={2} display='flex' justifyContent='center'>
+                <Grid container mt={2} display='flex' justifyContent='center' className='animate__animated animate__fadeInLeft'>
                     <Typography variant='h4'>Reach me at</Typography>
 
                     <Grid container mt={1} justifyContent='center'>
@@ -46,6 +46,12 @@ export const IndexPage = () => {
                             <Typography variant='h6' ml={2}>8334279418</Typography>
                         </Grid>
                     </Grid>
+                </Grid>
+
+                <Grid p={3} mt={2} borderRadius={5} bgcolor='primary.blue' className='animate__animated animate__fadeInRight'>
+                    <Typography variant='h6' color='white'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla auctor justo sed eleifend. Vivamus maximus cursus accumsan. Integer dui neque, mollis vitae orci ut, porttitor volutpat urna. Sed sollicitudin neque quis maximus porttitor. Nam mi nibh, sagittis sit amet diam non, malesuada elementum turpis. In vitae lacus ac eros aliquam vehicula ut ac orci. Nam pulvinar commodo gravida. Aliquam erat volutpat. Donec ac enim tincidunt, malesuada lectus non, laoreet purus. Donec quis pulvinar justo. Cras quis est rutrum, volutpat metus in, ultricies sem. Suspendisse blandit, nunc et accumsan commodo, mi neque maximus orci, sit amet blandit nibh risus eu orci. Nam in rhoncus diam. Mauris mattis ultricies sapien, ut suscipit enim suscipit placerat.
+                    </Typography>
                 </Grid>
             </AppLayout>
         </>
