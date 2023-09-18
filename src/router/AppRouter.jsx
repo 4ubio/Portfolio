@@ -4,8 +4,8 @@ import { IndexPage } from '../pages'
 export const AppRouter = () => {
     return (
         <Routes>
-            <Route path='/' element={<IndexPage/>}/> 
-            <Route path='/*' element={<Navigate to='/' />} />
+            <Route path='/about-me' element={<IndexPage/>}/> 
+            <Route path='/*' element={<Navigate to='/about-me' />} />
         </Routes>
     )
 }

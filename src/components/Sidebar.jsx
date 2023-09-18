@@ -46,7 +46,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/' 
+                            to='/about-me' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
