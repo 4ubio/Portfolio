@@ -12,11 +12,11 @@ export const ExpPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={5} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Cafe/1.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Cafe/2.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Cafe/3.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Cafe/4.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Cafe/5.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                         </Carousel>
                     </Grid>
 
@@ -39,11 +39,11 @@ export const ExpPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={5} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Vertice/2.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Vertice/1.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Vertice/3.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Vertice/4.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Vertice/5.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                         </Carousel>
                     </Grid>
 
@@ -66,11 +66,11 @@ export const ExpPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={5} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Asistencias/1.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Asistencias/2.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Asistencias/3.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Asistencias/4.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/Asistencias/5.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                         </Carousel>
                     </Grid>
 
@@ -93,11 +93,11 @@ export const ExpPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={5} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/Cafe3/1.png' className='carousel_img_2' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/ILAM/1.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/ILAM/2.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/ILAM/3.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/ILAM/4.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/ILAM/5.png' className='carousel_img_2 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                         </Carousel>
                     </Grid>
 

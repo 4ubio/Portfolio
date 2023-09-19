@@ -14,7 +14,7 @@ export const IndexPage = () => {
                     </Grid>
 
                     <Grid item xs={12} md={5} display='flex' justifyContent='center' alignItems='center'>
-                        <img src='./assets/me.png' className='img_me'></img>
+                        <img src='./assets/me.png' className='img_me box-shadow'></img>
                     </Grid>
                 </Grid>
 

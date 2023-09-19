@@ -12,11 +12,11 @@ export const WorkshopsPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
-                            <img src='./assets/W2/1.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/W2/2.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/W2/3.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/W2/4.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/W2/5.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W2/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W2/2.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W2/3.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W2/4.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W2/5.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                         </Carousel>
                     </Grid>
 
@@ -39,11 +39,11 @@ export const WorkshopsPage = () => {
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
-                            <img src='./assets/W1/1.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/W1/2.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/W1/3.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/W1/4.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
-                            <img src='./assets/W1/5.jpg' className='carousel_img_3' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W1/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W1/2.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W1/3.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W1/4.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/W1/5.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                         </Carousel>
                     </Grid>
 
