@@ -114,6 +114,8 @@ export const TechPage = () => {
                         <Chip label='Jira' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                        
                         <Chip label='Figma' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                        
                         <Chip label='Terminal' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                                          
+                        <Chip label='WordPress' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                                          
+                        <Chip label='WooCommerce' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                                          
                     </Grid>
                 </Grid>
             </AppLayout>
