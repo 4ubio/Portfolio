@@ -11,7 +11,7 @@ export const CloudPage = () => {
 
                 {/* Cloudate */}
                 <Grid container mt={2} bgcolor='#1F8A70' borderRadius={5} className='animate__animated animate__fadeInLeft'>
-                    <Grid item width='100%' mt={2}>
+                    <Grid item width='100%' mt={2} mb={2} xs={12} sm={4}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/Cloudate/1.png' className='carousel_img' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                             <img src='./assets/Cloudate/2.png' className='carousel_img' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -24,7 +24,7 @@ export const CloudPage = () => {
                         </Carousel>
                     </Grid>
 
-                    <Grid container display='block' mt={2} color='white' p={3}>
+                    <Grid item display='block' color='white' p={3} xs={12} sm={8}>
                         <Typography variant='h4' textAlign='center'>☁️ Cloudate</Typography>
 
                         <Grid container mt={1} justifyContent='center'>
@@ -37,16 +37,18 @@ export const CloudPage = () => {
                             </IconButton>
                         </Grid>
 
-                        <Typography variant='h7'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem saepe inventore enim nobis quisquam corrupti commodi sit maiores. Accusantium fuga aspernatur impedit sunt delectus saepe doloremque maiores officia perferendis.
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi asperiores, voluptas iure fuga omnis eum quibusdam eaque, sapiente quo culpa dignissimos, ipsam dolorum quidem facere! Eum doloribus aut molestias facere?
-                        </Typography>
+                        <Grid item mt={2}>
+                            <Typography variant='h7'>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem saepe inventore enim nobis quisquam corrupti commodi sit maiores. Accusantium fuga aspernatur impedit sunt delectus saepe doloremque maiores officia perferendis.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi asperiores, voluptas iure fuga omnis eum quibusdam eaque, sapiente quo culpa dignissimos, ipsam dolorum quidem facere! Eum doloribus aut molestias facere?
+                            </Typography>
+                        </Grid>
                     </Grid>
                 </Grid>
 
                 {/* Cloudybook */}
                 <Grid container mt={2} bgcolor='#213555' borderRadius={5} className='animate__animated animate__fadeInRight'>
-                    <Grid item width='100%' mt={2}>
+                    <Grid item width='100%' mt={2} mb={2} xs={12} sm={4}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/Cloudybook/1.png' className='carousel_img' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                             <img src='./assets/Cloudybook/2.png' className='carousel_img' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -57,7 +59,7 @@ export const CloudPage = () => {
                         </Carousel>
                     </Grid>
 
-                    <Grid container display='block' mt={2} color='white' p={3}>
+                    <Grid item display='block' color='white' p={3} xs={12} sm={8}>
                         <Typography variant='h4' textAlign='center'>☁️ Cloudybook</Typography>
 
                         <Grid container mt={1} justifyContent='center'>
@@ -70,10 +72,12 @@ export const CloudPage = () => {
                             </IconButton>
                         </Grid>
 
-                        <Typography variant='h7'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem saepe inventore enim nobis quisquam corrupti commodi sit maiores. Accusantium fuga aspernatur impedit sunt delectus saepe doloremque maiores officia perferendis.
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi asperiores, voluptas iure fuga omnis eum quibusdam eaque, sapiente quo culpa dignissimos, ipsam dolorum quidem facere! Eum doloribus aut molestias facere?
-                        </Typography>
+                        <Grid item mt={2}>
+                            <Typography variant='h7'>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem saepe inventore enim nobis quisquam corrupti commodi sit maiores. Accusantium fuga aspernatur impedit sunt delectus saepe doloremque maiores officia perferendis.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi asperiores, voluptas iure fuga omnis eum quibusdam eaque, sapiente quo culpa dignissimos, ipsam dolorum quidem facere! Eum doloribus aut molestias facere?
+                            </Typography>
+                        </Grid>
                     </Grid>
                 </Grid>
             </AppLayout>
