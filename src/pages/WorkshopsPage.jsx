@@ -8,7 +8,7 @@ export const WorkshopsPage = () => {
             <AppLayout>
                 <Typography variant='h3' textAlign='center' className='animate__animated animate__fadeInRight'>👨🏽‍🏫 Workshops</Typography>
 
-                {/* Cafe 3.0 */}
+                {/* SIM */}
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
@@ -35,7 +35,7 @@ export const WorkshopsPage = () => {
                     </Grid>
                 </Grid>
 
-                {/* Cafe 3.0 */}
+                {/* FPE */}
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
