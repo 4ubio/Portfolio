@@ -21,6 +21,10 @@
     width: 90%;
 }
 
+.carousel_img_3 {
+    width: 90%;
+}
+
 @media (min-width: 600px) {
     .carousel_img {
         width: 50%;
@@ -28,6 +32,10 @@
 
     .carousel_img_2 {
         width: 70%;
+    }
+
+    .carousel_img_3 {
+        width: 60%;
     }
 }
 
@@ -49,6 +57,10 @@
     }
 
     .carousel_img_2 {
+        width: 90%;
+    }
+
+    .carousel_img_3 {
         width: 90%;
     }
 }
