@@ -10,7 +10,7 @@ export const IndexPage = () => {
                     <Grid item xs={12} md={7} >
                         <Typography variant='h4'>Nice to meet you 👋🏽, I'm</Typography>
                         <Typography variant='h1' color='primary.blue'>Sebastián Rubio</Typography>
-                        <Typography variant='h6'>Software developer</Typography>
+                        <Typography variant='h6'>Software developer based in Tampico, México 🇲🇽</Typography>
                     </Grid>
 
                     <Grid item xs={12} md={5} display='flex' justifyContent='center' alignItems='center'>
