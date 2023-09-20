@@ -26,7 +26,7 @@ export const ExpPage = () => {
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
-                            Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                            Cafe 3.0 is a web platform where students can make food orders in the campus cafe, consult the current status of their orders and see the whole menu. Work on this project gave me experience in new languages, technologies, development methodologies and skills like self-learning. So satisfied with the results and potential use of students.                        
                         </Typography>
                     </Grid>
 
@@ -53,7 +53,7 @@ export const ExpPage = () => {
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
-                            Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                            In 2023, I joined to the development team in this project. Vértice App is a web platform for excellence program "Vértice" and his members, applicants and administrators. On this web, members will have an entire information system about Vértice subjects, events, skills, points and more. So glad for the invite to take part of the development team and satisfied with the professional improvements that brought to me.                        
                         </Typography>
                     </Grid>
 
@@ -80,7 +80,7 @@ export const ExpPage = () => {
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
-                            Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                            I developed this project for my college which was entrusted to me by human resources as part of make his training process more efficient. Asistencias IEST is a web platform where teachers can register their assistance to meetings and trainings in the school through QR codes. Administrators can create meetings, consult assistance and see the teacher's data. Developing this web makes me proud of myself for the given confidence in my skills. So satisfied with the results and use of teachers and human resources.                         
                         </Typography>
                     </Grid>
 
@@ -107,7 +107,7 @@ export const ExpPage = () => {
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
-                            Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                            ILAM is a web platform where chemistry engineering students can reserve a laboratory in the campus, request private classes, etc. Work on this project gave me my first steps of coding with teammates and get acquainted with some development methodologies. So satisfied with the results and use of students.                        
                         </Typography>
                     </Grid>
                 </Grid>

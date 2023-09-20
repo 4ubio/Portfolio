@@ -42,7 +42,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         </IconButton>
                     </Grid>
                     
-                    <Grid bgcolor='primary.bg' borderRadius={5} p={1}>
+                    <Grid bgcolor='primary.bg' borderRadius={5} p={1} className="box-shadow">
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
@@ -73,7 +73,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             <Typography variant='h6' m={4}>💻 Tech stack</Typography>
                         </Link>
 
-                        <Link 
+                        {/* <Link 
                             component={RouterLink} 
                             color='inherit' 
                             to='/tamfy' 
@@ -81,7 +81,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             onClick={onToggleLink}
                         > 
                             <Typography variant='h6' m={4}>🌴 Tamfy</Typography>
-                        </Link>
+                        </Link> */}
 
                         <Link 
                             component={RouterLink} 

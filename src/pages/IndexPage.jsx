@@ -1,6 +1,6 @@
 import { Button, Grid, IconButton, Typography } from '@mui/material'
 import { AppLayout } from '../layout/AppLayout'
-import { GitHub, Instagram, LinkedIn, Mail, Phone, Visibility } from '@mui/icons-material'
+import { Favorite, GitHub, Instagram, LinkedIn, Mail, Phone, Visibility } from '@mui/icons-material'
 
 export const IndexPage = () => {
     return (
@@ -48,29 +48,42 @@ export const IndexPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid p={3} mt={2} borderRadius={5} bgcolor='primary.blue' className='animate__animated animate__fadeInRight'>
+                <Grid p={3} mt={2} borderRadius={5} bgcolor='primary.blue' className='animate__animated animate__fadeInRight box-shadow'>
                     <Typography variant='h6' color='white'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fringilla auctor justo sed eleifend. Vivamus maximus cursus accumsan. Integer dui neque, mollis vitae orci ut, porttitor volutpat urna. Sed sollicitudin neque quis maximus porttitor. Nam mi nibh, sagittis sit amet diam non, malesuada elementum turpis. In vitae lacus ac eros aliquam vehicula ut ac orci. Nam pulvinar commodo gravida. Aliquam erat volutpat. Donec ac enim tincidunt, malesuada lectus non, laoreet purus. Donec quis pulvinar justo. Cras quis est rutrum, volutpat metus in, ultricies sem. Suspendisse blandit, nunc et accumsan commodo, mi neque maximus orci, sit amet blandit nibh risus eu orci. Nam in rhoncus diam. Mauris mattis ultricies sapien, ut suscipit enim suscipit placerat.
+                        I'm Sebastián, but you can call me Sebas. I'm a passionate and dedicated professional in the field of software engineering, where I've had the privilege of building a career that blends my love for technology and software development with my expertise in coding. <br></br> <br></br>
+                        My career in software engineering began in 2020 with a profound fascination for coding. From that point forward, I've been on a continuous quest to deepen my knowledge, acquire new skills, and contribute to the ever-evolving landscape of software development. <br></br> <br></br>
+                        My career journey has equipped me with a versatile skill set, including proficiency in technologies such as React, Node.js and Firebase, and programming languages such as Swift, PHP and Python. I'm particularly passionate about web development, where I've demonstrated a track record of stunning web apps that you can explore in Tamfy, cloud apps and experience pages. <br></br> <br></br>
+                        Throughout my career, I've had the privilege of working with a diverse range of projects at college. I've taken on roles as a full-stack developer and product owner, where I've had the opportunity to enhance my leadership, coding skills, resilience, scalability solutions, and client satisfaction. <br></br> <br></br>
+                        If you're interested in collaborating, discussing potential projects, or simply sharing ideas, I'd love to hear from you. Please feel free to explore my whole portfolio and reach out to me. <br></br> <br></br>
+                        Peace. ✌🏽
                     </Typography>
 
-                    <Grid item textAlign='center' mt={2}>
-                        <Button
-                            sx={{
-                                backgroundColor: 'primary.main',
-                                color: 'primary.blue', 
-                                border: 'primary.blue', 
-                                ':hover': {
-                                    backgroundColor: 'primary.main',
-                                    color: 'primary.blue',
-                                    borderColor: 'primary.blue', 
-                                },
-                            }}
-                        >
-                            <Visibility />
-                            <Typography ml={2}>Check my CV</Typography>
-                        </Button>
+                    <Grid item mt={2} display='flex'>
+                        <Favorite sx={{color: 'white'}} />
+                        <Typography variant='h7' color='white' ml={2}>
+                            Fun fact: I'm a sneakerhead 👟. Sneakers and clothing design is my personal passion.
+                        </Typography>
                     </Grid>
                 </Grid>
+
+                <Grid item textAlign='center' mt={2} className='animate__animated animate__fadeInLeft'>
+                    <Button
+                        sx={{
+                            backgroundColor: 'primary.main',
+                            color: 'primary.blue', 
+                            border: 'primary.blue', 
+                            ':hover': {
+                                backgroundColor: 'primary.main',
+                                color: 'primary.blue',
+                                borderColor: 'primary.blue', 
+                            },
+                        }}
+                    >
+                        <Visibility />
+                        <Typography ml={2}>Check my CV</Typography>
+                    </Button>
+                </Grid>
+
             </AppLayout>
         </>
     )

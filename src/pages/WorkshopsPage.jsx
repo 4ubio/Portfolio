@@ -26,7 +26,7 @@ export const WorkshopsPage = () => {
                         <Typography variant='h6'>SIM IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
-                            Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                            I once again had the opportunity to share my knowledge of Python programming in September 2023. Mechatronics engineering students attended this session with the intention of learning and reinforcing the fundamentals of coding in this language. It's always a pleasure to talk and help others with teaching coding, which is one of my biggest passions. Special thanks to the Sociedad de Ingeniería Mecatronica for inviting me and to Gerardo Schekaiban for teaching alongside me.                        
                         </Typography>
                     </Grid>
 
@@ -53,7 +53,7 @@ export const WorkshopsPage = () => {
                         <Typography variant='h6'>Foro Proyecciones Empresariales</Typography>
                         <br />
                         <Typography variant='h7'>
-                            Pellentesque aliquam dui vitae sodales ultrices. Mauris a pellentesque odio. Morbi metus arcu, tempus vel blandit efficitur, tempor sit amet justo. In iaculis egestas urna eu scelerisque. Etiam vehicula semper elit vitae tristique. Nulla fermentum leo bibendum orci tincidunt, id posuere tellus semper. Aliquam rhoncus vel felis aliquet pharetra.
+                            In April 2023, I had the opportunity to share my knowledge of Python programming. This session had the purpose of teaching the fundamentals of coding in this language and creating some applications. It's always a pleasure to talk and teach about my career and encourage people to enter the CS field. Special thanks to FPE (Foro Proyecciones Empresariales) for inviting me and to Josué Arreola for teaching alongside me.                        
                         </Typography>
                     </Grid>
                 </Grid>

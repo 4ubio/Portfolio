@@ -39,8 +39,7 @@ export const CloudPage = () => {
 
                         <Grid item mt={2}>
                             <Typography variant='h7'>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem saepe inventore enim nobis quisquam corrupti commodi sit maiores. Accusantium fuga aspernatur impedit sunt delectus saepe doloremque maiores officia perferendis.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi asperiores, voluptas iure fuga omnis eum quibusdam eaque, sapiente quo culpa dignissimos, ipsam dolorum quidem facere! Eum doloribus aut molestias facere?
+                                Cloudate was envisioned as a powerful yet user-friendly tool that enables individuals and organizations to efficiently manage their time, plan events, and stay organized. The vision was to create a digital calendar that combines intuitive user interfaces with the convenience of cloud storage, allowing users to access their schedules from anywhere and on any device.
                             </Typography>
                         </Grid>
                     </Grid>
@@ -74,8 +73,7 @@ export const CloudPage = () => {
 
                         <Grid item mt={2}>
                             <Typography variant='h7'>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque rem saepe inventore enim nobis quisquam corrupti commodi sit maiores. Accusantium fuga aspernatur impedit sunt delectus saepe doloremque maiores officia perferendis.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi asperiores, voluptas iure fuga omnis eum quibusdam eaque, sapiente quo culpa dignissimos, ipsam dolorum quidem facere! Eum doloribus aut molestias facere?
+                                Cloudybook was envisioned as a dynamic and user-friendly solution to the age-old problem of note-taking and organization. The vision was to create a digital space where users could store, organize, and retrieve their notes effortlessly in a secure and cloud-based environment, eliminating the constraints of physical notebooks.
                             </Typography>
                         </Grid>
                     </Grid>
