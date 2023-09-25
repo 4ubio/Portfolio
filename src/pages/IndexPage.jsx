@@ -78,9 +78,10 @@ export const IndexPage = () => {
                                 borderColor: 'primary.blue', 
                             },
                         }}
+                        onClick={() => window.open('https://drive.google.com/file/d/1_Ky3ljuzqD_17Fezt7NZRQR5kpKMtCav/view?usp=sharing')}
                     >
                         <Visibility />
-                        <Typography ml={2}>Check my CV</Typography>
+                        <Typography ml={2}>Check my resume</Typography>
                     </Button>
                 </Grid>
 
