@@ -2,11 +2,11 @@ import { Grid, Typography } from '@mui/material'
 import { AppLayout } from '../layout/AppLayout'
 import Carousel from 'react-material-ui-carousel'
 
-export const ProjectsPage = () => {
+export const WebPage = () => {
     return (
         <>
             <AppLayout>
-                <Typography variant='h3' textAlign='center' className='animate__animated animate__fadeInRight'>💼 Projects</Typography>
+                <Typography variant='h3' textAlign='center' className='animate__animated animate__fadeInRight'>💼 Web experience</Typography>
 
                 {/* Cafe 3.0 */}
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>

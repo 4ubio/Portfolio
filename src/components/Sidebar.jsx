@@ -96,11 +96,11 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/projects' 
+                            to='/web' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>💼 Projects</Typography>
+                            <Typography variant='h6' m={4}>💼 Web</Typography>
                         </Link>
 
                         <Link 
