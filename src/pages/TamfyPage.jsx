@@ -7,11 +7,11 @@ export const TamfyPage = () => {
     return (
         <>
             <AppLayout>
-                <Grid item mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid item className='animate__animated animate__fadeInRight'>
 
-                    <Grid item mt={2} textAlign='center'>
+                    <Grid item textAlign='center'>
                         <img src='./assets/Tamfy/tamfy_logo.png' className='tamfy_logo'></img>
-                        <Typography variant='h6'>CEO since 2023</Typography>
+                        <Typography variant='h4' >Chief Executive Officer since 2023</Typography>
                         <Button
                             onClick={() => window.open('https://tamfy.mx/')}
                             sx={{
@@ -37,7 +37,7 @@ export const TamfyPage = () => {
                             <img src='./assets/Tamfy/4.png' className='carousel_img_tamfy box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                             <img src='./assets/Tamfy/5.png' className='carousel_img_tamfy box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
                         </Carousel>
-                    </Grid>
+                    </Grid> 
 
                     <Grid item mt={2} textAlign='center'>
                         <Typography variant='h7'>

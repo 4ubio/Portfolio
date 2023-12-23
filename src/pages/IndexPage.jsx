@@ -1,6 +1,6 @@
 import { Button, Grid, IconButton, Typography } from '@mui/material'
 import { AppLayout } from '../layout/AppLayout'
-import { Favorite, GitHub, Instagram, LinkedIn, Mail, Phone, Visibility } from '@mui/icons-material'
+import { Favorite, GitHub, InsertDriveFile, Instagram, LinkedIn, Mail, Phone } from '@mui/icons-material'
 
 export const IndexPage = () => {
     return (
@@ -10,7 +10,7 @@ export const IndexPage = () => {
                     <Grid item xs={12} md={7} >
                         <Typography variant='h4'>Nice to meet you 👋🏽, I'm</Typography>
                         <Typography variant='h1' color='primary.blue'>Sebastián Rubio</Typography>
-                        <Typography variant='h6'>Software developer based in Tampico, México 🇲🇽</Typography>
+                        <Typography variant='h6'>Software Engineer based in Tampico, México 🇲🇽</Typography>
                     </Grid>
 
                     <Grid item xs={12} md={5} display='flex' justifyContent='center' alignItems='center'>
@@ -33,19 +33,34 @@ export const IndexPage = () => {
                         <IconButton sx={{color: 'primary.blue'}} onClick={() => window.open('https://github.com/4ubio')}>
                             <GitHub sx={{fontSize: 30}}/>
                         </IconButton>
-                    </Grid>
 
-                    <Grid container display='block' mt={1}>
-                        <Grid item color='primary.blue' display='flex' alignItems='center'>
-                            <Mail />
-                            <Typography variant='h6' ml={2}>sebastianrubioquiroz@gmail.com</Typography>
-                        </Grid>
+                        <IconButton sx={{color: 'primary.blue'}} onClick={() => window.open('mailto: sebastianrubioquiroz@gmail.com')}>
+                            <Mail sx={{fontSize: 30}}/>
+                        </IconButton>
 
-                        <Grid item color='primary.blue' display='flex' alignItems='center'>
-                            <Phone />
-                            <Typography variant='h6' ml={2}>8334279418</Typography>
-                        </Grid>
+                        <IconButton sx={{color: 'primary.blue'}} onClick={() => window.open('tel: 8334279418')}>
+                            <Phone sx={{fontSize: 30}}/>
+                        </IconButton>
                     </Grid>
+                </Grid>
+
+                <Grid item textAlign='center' mt={2} className='animate__animated animate__fadeInLeft'>
+                    <Button
+                        sx={{
+                            backgroundColor: 'primary.main',
+                            color: 'primary.blue', 
+                            border: 'primary.blue', 
+                            ':hover': {
+                                backgroundColor: 'primary.main',
+                                color: 'primary.blue',
+                                borderColor: 'primary.blue', 
+                            },
+                        }}
+                        onClick={() => window.open('https://drive.google.com/file/d/1URepRGFksN9s57gpL6i_coxt0ybhZm-R/view?usp=sharing')}
+                    >
+                        <InsertDriveFile />
+                        <Typography ml={2}>Check my resume</Typography>
+                    </Button>
                 </Grid>
 
                 <Grid p={3} mt={2} borderRadius={5} bgcolor='primary.blue' className='animate__animated animate__fadeInRight box-shadow'>
@@ -64,25 +79,6 @@ export const IndexPage = () => {
                             Fun fact: I'm a sneakerhead 👟. Sneakers and clothing design is my personal passion.
                         </Typography>
                     </Grid>
-                </Grid>
-
-                <Grid item textAlign='center' mt={2} className='animate__animated animate__fadeInLeft'>
-                    <Button
-                        sx={{
-                            backgroundColor: 'primary.main',
-                            color: 'primary.blue', 
-                            border: 'primary.blue', 
-                            ':hover': {
-                                backgroundColor: 'primary.main',
-                                color: 'primary.blue',
-                                borderColor: 'primary.blue', 
-                            },
-                        }}
-                        onClick={() => window.open('https://drive.google.com/file/d/1_Ky3ljuzqD_17Fezt7NZRQR5kpKMtCav/view?usp=sharing')}
-                    >
-                        <Visibility />
-                        <Typography ml={2}>Check my resume</Typography>
-                    </Button>
                 </Grid>
 
             </AppLayout>

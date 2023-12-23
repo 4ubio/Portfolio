@@ -15,7 +15,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2020 - 2024</Typography>
-                        <Typography variant='h4' color='primary.blue'>System and digital business engineering</Typography>
+                        <Typography variant='h4' color='primary.blue'>System and Digital Business Engineering</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -29,7 +29,7 @@ export const EducationPage = () => {
                     </Grid>
                 </Grid>
 
-                {/* React */}
+                {/* Machine Learning */}
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={3} textAlign='center'>
                         <img src='./assets/udemy-logo.png' className='logo_education '></img>
@@ -37,7 +37,28 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2023</Typography>
-                        <Typography variant='h4' color='primary.blue'>React development bootcamp</Typography>
+                        <Typography variant='h4' color='primary.blue'>Machine Learning with Python & R Bootcamp</Typography>
+                        <Typography variant='h6'>SuperDataScience</Typography>
+                        <br />
+                        <Typography variant='h7'>
+                            The Machine Learning Bootcamp took me on a deep dive into the heart of AI. From mastering algorithms to hands-on coding, this program was a comprehensive journey into the world of data science. Guided by industry experts, I tackled real-world case exercises, applying my skills to solve complex problems and gaining practical insights. 
+                        </Typography>
+                    </Grid>
+
+                    <Grid item xs={12} m={2} textAlign='center'>
+                        <img src='./assets/vline.png' className='line'></img>
+                    </Grid>
+                </Grid>
+
+                {/* React */}
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                    <Grid item xs={12} md={3} textAlign='center'>
+                        <img src='./assets/udemy-logo.png' className='logo_education '></img>
+                    </Grid>
+
+                    <Grid item xs={12} md={9}>
+                        <Typography variant='h6'>2023</Typography>
+                        <Typography variant='h4' color='primary.blue'>React Development Bootcamp</Typography>
                         <Typography variant='h6'>Fernando Herrera</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -51,9 +72,9 @@ export const EducationPage = () => {
                 </Grid>
 
                 {/* iOS */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={3} textAlign='center'>
-                        <img src='./assets/ab-logo.jpeg' className='logo_education '></img>
+                        <img src='./assets/udemy-logo.png' className='logo_education '></img>
                     </Grid>
 
                     <Grid item xs={12} md={9}>
@@ -72,14 +93,14 @@ export const EducationPage = () => {
                 </Grid>
 
                 {/* Web */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={3} textAlign='center'>
                         <img src='./assets/udemy-logo.png' className='logo_education '></img>
                     </Grid>
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2021</Typography>
-                        <Typography variant='h4' color='primary.blue'>Web development bootcamp</Typography>
+                        <Typography variant='h4' color='primary.blue'>Web Development Bootcamp</Typography>
                         <Typography variant='h6'>Código con Juan</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -93,14 +114,14 @@ export const EducationPage = () => {
                 </Grid>
 
                 {/* High school */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={3} textAlign='center'>
                         <img src='./assets/anahuac-logo.png' className='logo_education '></img>
                     </Grid>
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2017 - 2020</Typography>
-                        <Typography variant='h4' color='primary.blue'>High school</Typography>
+                        <Typography variant='h4' color='primary.blue'>High School</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
