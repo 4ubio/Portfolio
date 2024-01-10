@@ -1,6 +1,7 @@
 import { Button, Grid, IconButton, Typography } from '@mui/material'
-import { AppLayout } from '../layout/AppLayout'
 import { Favorite, GitHub, InsertDriveFile, Instagram, LinkedIn, Mail, Phone } from '@mui/icons-material'
+import ReactTyped from "react-typed";
+import { AppLayout } from '../layout/AppLayout'
 
 export const IndexPage = () => {
     return (
@@ -9,8 +10,20 @@ export const IndexPage = () => {
                 <Grid container className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={7} >
                         <Typography variant='h4'>Nice to meet you 👋🏽, I'm</Typography>
-                        <Typography variant='h1' color='primary.blue'>Sebastián Rubio</Typography>
-                        <Typography variant='h6'>Software Engineer based in Tampico, México 🇲🇽</Typography>
+                        <Typography variant='h1' color='primary.blue'>
+                            <ReactTyped
+                                strings={["Sebastián Rubio"]}
+                                typeSpeed={100}
+                                backSpeed={50}
+                                loop
+                            />
+                        </Typography>
+                        <Typography variant='h6'>
+                            <ReactTyped
+                                strings={["Software Engineer based in Tampico, México 🇲🇽"]}
+                                typeSpeed={50}
+                            />
+                        </Typography>
                     </Grid>
 
                     <Grid item xs={12} md={5} display='flex' justifyContent='center' alignItems='center'>
