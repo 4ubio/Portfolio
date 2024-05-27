@@ -41,6 +41,10 @@ img {
     width: 90%;
 }
 
+.carousel_img_mobile {
+    width: 50%;
+}
+
 @media (min-width: 600px) {
     .tamfy_logo {
         width: 20%;
@@ -84,5 +88,3 @@ img {
         width: 90%;
     }
 }
-
-

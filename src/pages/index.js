@@ -4,5 +4,7 @@ export * from './TechPage';
 export * from './TamfyPage';
 export * from './CloudPage';
 export * from './WebPage';
+export * from './AndroidPage';
+export * from './IOSPage';
 export * from './WorkshopsPage';
 export * from './AwardsPage';

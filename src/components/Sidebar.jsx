@@ -106,6 +106,26 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
+                            to='/android' 
+                            style={{textDecoration: 'none'}}
+                            onClick={onToggleLink}
+                        > 
+                            <Typography variant='h6' m={4}>📱 Android</Typography>
+                        </Link>
+
+                        <Link 
+                            component={RouterLink} 
+                            color='inherit' 
+                            to='/ios' 
+                            style={{textDecoration: 'none'}}
+                            onClick={onToggleLink}
+                        > 
+                            <Typography variant='h6' m={4}>📱 iOS</Typography>
+                        </Link>
+
+                        <Link 
+                            component={RouterLink} 
+                            color='inherit' 
                             to='/workshops' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}

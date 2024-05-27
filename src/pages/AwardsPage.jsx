@@ -8,8 +8,34 @@ export const AwardsPage = () => {
             <AppLayout>
                 <Typography variant='h3' textAlign='center' className='animate__animated animate__fadeInRight'>🏆 Awards</Typography>
 
-                {/* Academic excellence 2023 */}
+                {/* Academic excellence 2024 */}
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                    <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
+                        <Carousel animation='slide' duration='800' autoPlay>
+                            <img src='./assets/AW4/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW4/2.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW4/3.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW4/4.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                        </Carousel>
+                    </Grid>
+
+                    <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
+                        <Typography variant='h6'>February 2024</Typography>
+                        <Typography variant='h4' color='primary.blue'>🏅 Academic excellence</Typography>
+                        <Typography variant='h6'>IEST Anáhuac</Typography>
+                        <br />
+                        <Typography variant='h7'>
+                            I once again was honored to receive an academic excellence award for my performance in the August–December 2023 semester, achieving a grade point average of 9.92 out of 10. This is the third time I have received this award, and it serves as motivation for me to continue striving for excellence. Being recognized for my efforts is always gratifying, and I am grateful to IEST Anáhuac for this recognition. 
+                        </Typography>
+                    </Grid>
+
+                    <Grid item xs={12} m={2} textAlign='center'>
+                        <img src='./assets/vline.png' className='line'></img>
+                    </Grid>
+                </Grid>
+
+                {/* Academic excellence 2023 */}
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW3/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -36,7 +62,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Essay */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW2/1.JPG' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -62,7 +88,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Academic excellence 2022 */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW1/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>

@@ -86,8 +86,30 @@ export const TechPage = () => {
                     </Grid>
                 </Grid>
 
-                {/* iOS */}
+                {/* Android */}
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                    <Typography variant='h4'>Android Development</Typography>
+                    <Typography variant='h7' mt={2}>
+                        In my Android development projects, I use Kotlin and Jetpack Compose to create robust, user-friendly apps. My work includes integrating third-party SDKs, using Retrofit for network communication, and developing custom APIs. I focus on delivering high-quality apps with intuitive user experiences.
+                    </Typography>
+
+                    <Grid container mt={2} gap={1}>
+                        <Chip label='Kotlin' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>
+                        <Chip label='Jetpack Compose' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>
+                        <Chip label='Retrofit' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>
+                        <Chip label='Coil' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>
+                        <Chip label='Data Store' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>
+                        <Chip label='NavHost' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>
+                        <Chip label='Coroutines' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>
+                    </Grid>
+
+                    <Grid item xs={12} m={2} textAlign='center'>
+                        <img src='./assets/vline.png' className='line'></img>
+                    </Grid>
+                </Grid>
+
+                {/* iOS */}
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Typography variant='h4'>iOS Development</Typography>
                     <Typography variant='h7' mt={2}>
                         Creating captivating and functional mobile experiences for iOS devices is a passion of mine. As an iOS developer, I specialize in building native applications that combine seamless performance with intuitive user interfaces. Here's what you can expect from my iOS development expertise:
@@ -110,7 +132,7 @@ export const TechPage = () => {
                 </Grid>
 
                 {/* Programming languages */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Typography variant='h4'>Programming Languages</Typography>
                     <Typography variant='h7' mt={2}>
                         Throughout my journey as a developer, I've continually expanded my skill set by mastering various programming languages. These languages are the building blocks of the digital experiences I create, each offering unique capabilities and versatility. Here are some of the programming languages I've learned and applied in my career:
@@ -129,7 +151,7 @@ export const TechPage = () => {
                 </Grid>
 
                 {/* Tech */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Typography variant='h4'>Technologies</Typography>
                     <Typography variant='h7' mt={2}>
                         In the world of development, having the right tools at your disposal is essential to create exceptional digital experiences. I'm committed to delivering high-quality work, and I rely on a range of software tools and platforms to achieve that goal. Here's a glimpse into the software I use in my development workflow:

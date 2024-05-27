@@ -29,8 +29,29 @@ export const EducationPage = () => {
                     </Grid>
                 </Grid>
 
-                {/* Machine Learning */}
+                {/* White Belt */}
                 <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                    <Grid item xs={12} md={3} textAlign='center'>
+                        <img src='./assets/lean6s_logo.jpeg' className='logo_education '></img>
+                    </Grid>
+
+                    <Grid item xs={12} md={9}>
+                        <Typography variant='h6'>2024</Typography>
+                        <Typography variant='h4' color='primary.blue'>White Belt Certification</Typography>
+                        <Typography variant='h6'>International Lean Six Sigma</Typography>
+                        <br />
+                        <Typography variant='h7'>
+                            I earned a White Belt Lean Six Sigma certificate, which equips me with foundational knowledge in process improvement and quality management methodologies. This certification demonstrates my commitment to enhancing efficiency and excellence in my work.
+                        </Typography>
+                    </Grid>
+
+                    <Grid item xs={12} m={2} textAlign='center'>
+                        <img src='./assets/vline.png' className='line'></img>
+                    </Grid>
+                </Grid>
+
+                {/* Machine Learning */}
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={3} textAlign='center'>
                         <img src='./assets/udemy-logo.png' className='logo_education '></img>
                     </Grid>
@@ -51,7 +72,7 @@ export const EducationPage = () => {
                 </Grid>
 
                 {/* React */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={3} textAlign='center'>
                         <img src='./assets/udemy-logo.png' className='logo_education '></img>
                     </Grid>
@@ -72,7 +93,7 @@ export const EducationPage = () => {
                 </Grid>
 
                 {/* iOS */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={3} textAlign='center'>
                         <img src='./assets/udemy-logo.png' className='logo_education '></img>
                     </Grid>
@@ -93,7 +114,7 @@ export const EducationPage = () => {
                 </Grid>
 
                 {/* Web */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={3} textAlign='center'>
                         <img src='./assets/udemy-logo.png' className='logo_education '></img>
                     </Grid>
@@ -114,7 +135,7 @@ export const EducationPage = () => {
                 </Grid>
 
                 {/* High school */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={3} textAlign='center'>
                         <img src='./assets/anahuac-logo.png' className='logo_education '></img>
                     </Grid>
