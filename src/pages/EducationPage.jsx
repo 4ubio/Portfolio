@@ -15,7 +15,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2020 - 2024</Typography>
-                        <Typography variant='h4' color='primary.blue'>System and Digital Business Engineering</Typography>
+                        <Typography variant='h4' color='primary.blue'>Systems and Digital Business Engineering</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>

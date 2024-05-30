@@ -69,7 +69,7 @@ export const IndexPage = () => {
                                 borderColor: 'primary.blue', 
                             },
                         }}
-                        onClick={() => window.open('https://drive.google.com/file/d/1URepRGFksN9s57gpL6i_coxt0ybhZm-R/view?usp=sharing')}
+                        onClick={() => window.open('https://drive.google.com/file/d/1cadi_6WdwBgwRcTXDjKnOOmJuoC7Fk8T/view?usp=sharing')}
                     >
                         <InsertDriveFile />
                         <Typography ml={2}>Check my resume</Typography>

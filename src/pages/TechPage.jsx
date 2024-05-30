@@ -131,27 +131,8 @@ export const TechPage = () => {
                     </Grid>
                 </Grid>
 
-                {/* Programming languages */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
-                    <Typography variant='h4'>Programming Languages</Typography>
-                    <Typography variant='h7' mt={2}>
-                        Throughout my journey as a developer, I've continually expanded my skill set by mastering various programming languages. These languages are the building blocks of the digital experiences I create, each offering unique capabilities and versatility. Here are some of the programming languages I've learned and applied in my career:
-                    </Typography>
-
-                    <Grid container mt={2} gap={1}>
-                        <Chip label='Python' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                  
-                        <Chip label='Java' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                  
-                        <Chip label='C++' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                  
-                        <Chip label='R' variant='outlined' sx={{backgroundColor: 'primary.main', color: 'primary.blue', borderColor: 'primary.blue'}}/>                  
-                    </Grid>
-
-                    <Grid item xs={12} m={2} textAlign='center'>
-                        <img src='./assets/vline.png' className='line'></img>
-                    </Grid>
-                </Grid>
-
                 {/* Tech */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Typography variant='h4'>Technologies</Typography>
                     <Typography variant='h7' mt={2}>
                         In the world of development, having the right tools at your disposal is essential to create exceptional digital experiences. I'm committed to delivering high-quality work, and I rely on a range of software tools and platforms to achieve that goal. Here's a glimpse into the software I use in my development workflow:
