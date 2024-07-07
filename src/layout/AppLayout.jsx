@@ -8,7 +8,7 @@ export const AppLayout = ({children}) => {
     const [toggle, setToggle] = useState(false);
     
     return (
-        <Box sx={{display: 'flex'}}>
+        <Box sx={{display: 'flex'}} bgcolor='primary.main' color='primary.font'>
             <Navbar drawerWidth={drawerWidth} toggle={toggle} setToggle={setToggle}/>
             <Sidebar drawerWidth={drawerWidth} toggle={toggle} setToggle={setToggle}/>
             

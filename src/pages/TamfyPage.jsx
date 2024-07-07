@@ -17,10 +17,10 @@ export const TamfyPage = () => {
                             sx={{
                                 m: 1,
                                 backgroundColor: 'primary.main',
-                                color: 'primary.blue', 
+                                color: 'primary.highlight', 
                                 ':hover': {
                                     backgroundColor: 'primary.main',
-                                    color: 'primary.blue',
+                                    color: 'primary.highlight',
                                 },
                             }}
                         >

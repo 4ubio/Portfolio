@@ -15,7 +15,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2020 - 2024</Typography>
-                        <Typography variant='h4' color='primary.blue'>Systems and Digital Business Engineering</Typography>
+                        <Typography variant='h4' color='primary.highlight'>Systems and Digital Business Engineering</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -37,7 +37,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2024</Typography>
-                        <Typography variant='h4' color='primary.blue'>White Belt Certification</Typography>
+                        <Typography variant='h4' color='primary.highlight'>White Belt Certification</Typography>
                         <Typography variant='h6'>International Lean Six Sigma</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -58,7 +58,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2023</Typography>
-                        <Typography variant='h4' color='primary.blue'>Machine Learning with Python & R Bootcamp</Typography>
+                        <Typography variant='h4' color='primary.highlight'>Machine Learning with Python & R Bootcamp</Typography>
                         <Typography variant='h6'>SuperDataScience</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -79,7 +79,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2023</Typography>
-                        <Typography variant='h4' color='primary.blue'>React Development Bootcamp</Typography>
+                        <Typography variant='h4' color='primary.highlight'>React Development Bootcamp</Typography>
                         <Typography variant='h6'>Fernando Herrera</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -100,7 +100,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2021</Typography>
-                        <Typography variant='h4' color='primary.blue'>iOS Development Bootcamp</Typography>
+                        <Typography variant='h4' color='primary.highlight'>iOS Development Bootcamp</Typography>
                         <Typography variant='h6'>The App Brewery</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -121,7 +121,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2021</Typography>
-                        <Typography variant='h4' color='primary.blue'>Web Development Bootcamp</Typography>
+                        <Typography variant='h4' color='primary.highlight'>Web Development Bootcamp</Typography>
                         <Typography variant='h6'>Código con Juan</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -142,7 +142,7 @@ export const EducationPage = () => {
 
                     <Grid item xs={12} md={9}>
                         <Typography variant='h6'>2017 - 2020</Typography>
-                        <Typography variant='h4' color='primary.blue'>High School</Typography>
+                        <Typography variant='h4' color='primary.highlight'>High School</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>

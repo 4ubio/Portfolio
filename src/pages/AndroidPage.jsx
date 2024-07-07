@@ -23,7 +23,7 @@ export const AndroidPage = () => {
 
                     <Grid item xs={12} md={7} p={{xs: 0, md: 2}} alignContent='center'>
                         <Typography variant='h6'>2024</Typography>
-                        <Typography variant='h4' color='primary.blue'>La Cafe App</Typography>
+                        <Typography variant='h4' color='primary.highlight'>La Cafe App</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>

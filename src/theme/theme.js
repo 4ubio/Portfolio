@@ -1,17 +1,12 @@
 import { createTheme } from "@mui/material";
-import { red } from "@mui/material/colors";
 
 //Color palette
-
 export const theme = createTheme({
     palette: {
         primary: {
-            main: '#ffffff',
-            bg: '#f7f7fc',
-            blue: '#3085C3'
-        },
-        error: {
-            main: red.A400
+            main: '#212121',
+            font: '#ffffff',
+            highlight: '#00ffbb'
         }
     }
 });

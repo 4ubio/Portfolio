@@ -22,7 +22,7 @@ export const WebPage = () => {
 
                     <Grid item xs={12} md={7} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>2022 - Today</Typography>
-                        <Typography variant='h4' color='primary.blue'>Cafe 3.0</Typography>
+                        <Typography variant='h4' color='primary.highlight'>Cafe 3.0</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -49,7 +49,7 @@ export const WebPage = () => {
 
                     <Grid item xs={12} md={7} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>2023</Typography>
-                        <Typography variant='h4' color='primary.blue'>Vértice App</Typography>
+                        <Typography variant='h4' color='primary.highlight'>Vértice App</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -76,7 +76,7 @@ export const WebPage = () => {
 
                     <Grid item xs={12} md={7} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>2022</Typography>
-                        <Typography variant='h4' color='primary.blue'>Asistencias IEST</Typography>
+                        <Typography variant='h4' color='primary.highlight'>Asistencias IEST</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -103,7 +103,7 @@ export const WebPage = () => {
 
                     <Grid item xs={12} md={7} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>2021</Typography>
-                        <Typography variant='h4' color='primary.blue'>ILAM</Typography>
+                        <Typography variant='h4' color='primary.highlight'>ILAM</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>

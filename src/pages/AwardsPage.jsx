@@ -21,7 +21,7 @@ export const AwardsPage = () => {
 
                     <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>February 2024</Typography>
-                        <Typography variant='h4' color='primary.blue'>🏅 Academic excellence</Typography>
+                        <Typography variant='h4' color='primary.highlight'>🏅 Academic excellence</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -48,7 +48,7 @@ export const AwardsPage = () => {
 
                     <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>September 2023</Typography>
-                        <Typography variant='h4' color='primary.blue'>🏅 Academic excellence</Typography>
+                        <Typography variant='h4' color='primary.highlight'>🏅 Academic excellence</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -74,7 +74,7 @@ export const AwardsPage = () => {
 
                     <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>December 2022</Typography>
-                        <Typography variant='h4' color='primary.blue'>🥇 Essay contest</Typography>
+                        <Typography variant='h4' color='primary.highlight'>🥇 Essay contest</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -101,7 +101,7 @@ export const AwardsPage = () => {
 
                     <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>August 2022</Typography>
-                        <Typography variant='h4' color='primary.blue'>🏅 Academic excellence</Typography>
+                        <Typography variant='h4' color='primary.highlight'>🏅 Academic excellence</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>

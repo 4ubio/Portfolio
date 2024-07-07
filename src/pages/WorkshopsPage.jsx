@@ -22,7 +22,7 @@ export const WorkshopsPage = () => {
 
                     <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>September 2023</Typography>
-                        <Typography variant='h4' color='primary.blue'>Introduction to coding with Python</Typography>
+                        <Typography variant='h4' color='primary.highlight'>Introduction to coding with Python</Typography>
                         <Typography variant='h6'>SIM IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
@@ -49,7 +49,7 @@ export const WorkshopsPage = () => {
 
                     <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
                         <Typography variant='h6'>April 2023</Typography>
-                        <Typography variant='h4' color='primary.blue'>Introduction to coding with Python</Typography>
+                        <Typography variant='h4' color='primary.highlight'>Introduction to coding with Python</Typography>
                         <Typography variant='h6'>Foro Proyecciones Empresariales</Typography>
                         <br />
                         <Typography variant='h7'>

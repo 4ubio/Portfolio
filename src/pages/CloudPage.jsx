@@ -24,15 +24,15 @@ export const CloudPage = () => {
                         </Carousel>
                     </Grid>
 
-                    <Grid item display='block' color='white' p={3} xs={12} sm={8}>
+                    <Grid item display='block' color='primary.font' p={3} xs={12} sm={8}>
                         <Typography variant='h4' textAlign='center'>☁️ Cloudate</Typography>
 
                         <Grid container mt={1} justifyContent='center'>
-                            <IconButton sx={{color: 'primary.main'}} onClick={() => window.open('https://github.com/4ubio/Cloudate')}>
+                            <IconButton sx={{color: 'primary.font'}} onClick={() => window.open('https://github.com/4ubio/Cloudate')}>
                                 <GitHub sx={{fontSize: 30}}/>
                             </IconButton>
 
-                            <IconButton sx={{color: 'primary.main'}} onClick={() => window.open('https://cloudate.netlify.app/')}>
+                            <IconButton sx={{color: 'primary.font'}} onClick={() => window.open('https://cloudate.netlify.app/')}>
                                 <Language sx={{fontSize: 30}}/>
                             </IconButton>
                         </Grid>
@@ -58,15 +58,15 @@ export const CloudPage = () => {
                         </Carousel>
                     </Grid>
 
-                    <Grid item display='block' color='white' p={3} xs={12} sm={8}>
+                    <Grid item display='block' color='primary.font' p={3} xs={12} sm={8}>
                         <Typography variant='h4' textAlign='center'>☁️ Cloudybook</Typography>
 
                         <Grid container mt={1} justifyContent='center'>
-                            <IconButton sx={{color: 'primary.main'}} onClick={() => window.open('https://github.com/4ubio/Cloudybook')}>
+                            <IconButton sx={{color: 'primary.font'}} onClick={() => window.open('https://github.com/4ubio/Cloudybook')}>
                                 <GitHub sx={{fontSize: 30}}/>
                             </IconButton>
 
-                            <IconButton sx={{color: 'primary.main'}} onClick={() => window.open('https://cloudybook.netlify.app/')}>
+                            <IconButton sx={{color: 'primary.font'}} onClick={() => window.open('https://cloudybook.netlify.app/')}>
                                 <Language sx={{fontSize: 30}}/>
                             </IconButton>
                         </Grid>

@@ -28,21 +28,19 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                 variant="persistent"
                 sx={{ 
                     display: {xs: 'block'},
-                    '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth}
+                    '& .MuiDrawer-paper': {borderWidth: 0, boxSizing: 'border-box', width: drawerWidth}
                 }}
+                PaperProps={{sx: {backgroundColor: 'primary.main'}}}
             >
-                <Box sx={{textAlign: 'left', p: 2}}>
-                    <Grid item textAlign='center'>
-                        <Typography variant='h4'>All about me</Typography>
-                    </Grid>
+                <Box sx={{textAlign: 'left', p: 2}} color='primary.font'>
 
                     <Grid item textAlign='center' mb={2}>
-                        <IconButton sx={{display: {md: 'none'}}} onClick={onToggle}>
+                        <IconButton sx={{display: {md: 'none'}, color: 'primary.font'}} onClick={onToggle}>
                             <Close />
                         </IconButton>
                     </Grid>
                     
-                    <Grid bgcolor='primary.bg' borderRadius={5} p={1} className="box-shadow">
+                    <Grid p={1}>
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
@@ -50,7 +48,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>🧑🏽‍💻 About me</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>🧑🏽‍💻 About me</Typography>
                         </Link>
 
                         <Link 
@@ -60,7 +58,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>📚 Education</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>📚 Education</Typography>
                         </Link>
 
                         <Link 
@@ -70,7 +68,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>💻 Tech stack</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>💻 Tech stack</Typography>
                         </Link>
 
                         <Link 
@@ -80,7 +78,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>🌴 Tamfy</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>🌴 Tamfy</Typography>
                         </Link>
 
                         <Link 
@@ -90,7 +88,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>☁️ Cloud apps</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>☁️ Cloud apps</Typography>
                         </Link>
 
                         <Link 
@@ -100,7 +98,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>💼 Web</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>💼 Web</Typography>
                         </Link>
 
                         <Link 
@@ -110,7 +108,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>📱 Android</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>📱 Android</Typography>
                         </Link>
 
                         <Link 
@@ -120,7 +118,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>📱 iOS</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>📱 iOS</Typography>
                         </Link>
 
                         <Link 
@@ -130,7 +128,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>👨🏽‍🏫 Workshops</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>👨🏽‍🏫 Workshops</Typography>
                         </Link>
 
                         <Link 
@@ -140,7 +138,7 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4}>🏆 Awards</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>🏆 Awards</Typography>
                         </Link>
 
                     </Grid>
