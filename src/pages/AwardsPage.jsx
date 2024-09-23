@@ -8,8 +8,34 @@ export const AwardsPage = () => {
             <AppLayout>
                 <Typography variant='h3' textAlign='center' className='animate__animated animate__fadeInRight'>🏆 Awards</Typography>
 
-                {/* Academic excellence 2024 */}
+                {/* Academic excellence 2024 - 2 */}
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                    <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
+                        <Carousel animation='slide' duration='800' autoPlay>
+                            <img src='./assets/AW5/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW5/2.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW5/3.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW5/4.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                        </Carousel>
+                    </Grid>
+
+                    <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
+                        <Typography variant='h6'>September 2024</Typography>
+                        <Typography variant='h4' color='primary.highlight'>🏅 Academic excellence</Typography>
+                        <Typography variant='h6'>IEST Anáhuac</Typography>
+                        <br />
+                        <Typography variant='h7'>
+                            I once again had the honor of receiving an academic excellence award for my performance in the January–June 2024 semester, with a perfect 10 GPA. This marks the fourth time I've received this recognition, which continues to inspire me to pursue excellence. Being acknowledged for my hard work is always rewarding, and I am thankful to IEST Anáhuac for this honor. 🌟
+                        </Typography>
+                    </Grid>
+
+                    <Grid item xs={12} m={2} textAlign='center'>
+                        <img src='./assets/vline.png' className='line'></img>
+                    </Grid>
+                </Grid>
+
+                {/* Academic excellence 2024 - 1 */}
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW4/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -35,7 +61,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Academic excellence 2023 */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW3/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -62,7 +88,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Essay */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW2/1.JPG' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -88,7 +114,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Academic excellence 2022 */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW1/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
