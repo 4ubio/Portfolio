@@ -124,11 +124,11 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/workshops' 
+                            to='/lectures' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>👨🏽‍🏫 Workshops</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>👨🏽‍🏫 Lectures</Typography>
                         </Link>
 
                         <Link 

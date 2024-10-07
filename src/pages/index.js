@@ -6,5 +6,5 @@ export * from './CloudPage';
 export * from './WebPage';
 export * from './AndroidPage';
 export * from './IOSPage';
-export * from './WorkshopsPage';
+export * from './LecturesPage';
 export * from './AwardsPage';

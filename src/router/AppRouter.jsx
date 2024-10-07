@@ -1,5 +1,5 @@
 import {Navigate, Route, Routes } from 'react-router-dom'
-import {AndroidPage, AwardsPage, CloudPage, EducationPage, IOSPage, IndexPage, TamfyPage, TechPage, WebPage, WorkshopsPage } from '../pages'
+import {AndroidPage, AwardsPage, CloudPage, EducationPage, IOSPage, IndexPage, TamfyPage, TechPage, WebPage, LecturesPage } from '../pages'
 
 export const AppRouter = () => {
     return (
@@ -12,7 +12,7 @@ export const AppRouter = () => {
             <Route path='/web' element={<WebPage/>}/> 
             <Route path='/android' element={<AndroidPage/>}/> 
             <Route path='/ios' element={<IOSPage/>}/> 
-            <Route path='/workshops' element={<WorkshopsPage/>}/> 
+            <Route path='/lectures' element={<LecturesPage/>}/> 
             <Route path='/awards' element={<AwardsPage/>}/> 
             <Route path='/*' element={<Navigate to='/' />} />
         </Routes>
