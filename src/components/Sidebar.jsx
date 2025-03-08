@@ -98,27 +98,17 @@ export const Sidebar = ({drawerWidth, toggle, setToggle}) => {
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>💼 Web</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>🌐 Web</Typography>
                         </Link>
 
                         <Link 
                             component={RouterLink} 
                             color='inherit' 
-                            to='/android' 
+                            to='/mobile' 
                             style={{textDecoration: 'none'}}
                             onClick={onToggleLink}
                         > 
-                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>📱 Android</Typography>
-                        </Link>
-
-                        <Link 
-                            component={RouterLink} 
-                            color='inherit' 
-                            to='/ios' 
-                            style={{textDecoration: 'none'}}
-                            onClick={onToggleLink}
-                        > 
-                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>📱 iOS</Typography>
+                            <Typography variant='h6' m={4} sx={{"&:hover": {color: "primary.highlight"}}}>📱 Mobile</Typography>
                         </Link>
 
                         <Link 

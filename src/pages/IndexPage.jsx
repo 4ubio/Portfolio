@@ -36,7 +36,7 @@ export const IndexPage = () => {
                                 <GitHub sx={{fontSize: 30}}/>
                             </IconButton>
 
-                            <IconButton sx={{color: 'primary.highlight'}} onClick={() => window.open('https://drive.google.com/file/d/1cadi_6WdwBgwRcTXDjKnOOmJuoC7Fk8T/view?usp=sharing')}>
+                            <IconButton sx={{color: 'primary.highlight'}} onClick={() => window.open('https://redanahuac-my.sharepoint.com/:b:/g/personal/sebastian_rubio66_anahuac_mx/EZxO-p6ViBJHs5KLKt6cFlEBQ_iphAUg3QnBEv3CKr7Hug?e=sbmRdQ')}>
                                 <InsertDriveFile sx={{fontSize: 30}}/>
                             </IconButton>
 
@@ -56,9 +56,9 @@ export const IndexPage = () => {
 
                     <Grid item mt={2}>
                         <Typography variant='h7'>
-                            I'm a passionate and dedicated professional in the field of software engineering, where I've had the privilege of building a career that blends my love for technology and software development with my expertise in coding. <br /> <br />
-                            I started my career in software engineering in 2020, and since then, I have developed a variety of web and mobile projects. My passion for the field encompasses <span style={{ color: '#00ffbb'}}>web development</span>, <span style={{ color: '#00ffbb'}}>mobile development</span>, and <span style={{ color: '#00ffbb'}}>machine learning</span>. This enthusiasm drives me to continuously expand my skills and contribute innovative solutions, which are showcased in the diverse projects within my portfolio. <br /> <br />
-                            If you're interested in collaborating, discussing job opportunities, or simply sharing ideas, I'd love to hear from you. Please feel free to explore my whole portfolio and reach out to me. ✌🏽
+                            I'm a passionate and innovative professional with a strong background in software engineering, where I've had the privilege of building a career that blends my love for technology and coding. <br /> <br />
+                            I began my career in software engineering in 2020, and since then, I have developed a diverse range of projects. My passion spans <span style={{ color: '#00ffbb'}}>web</span> and <span style={{ color: '#00ffbb'}}>mobile development</span>, as well as <span style={{ color: '#00ffbb'}}>machine learning</span>, driving me to continuously expand my skill set and craft innovative solutions. This commitment to growth and creativity is reflected in the projects showcased in my portfolio. <br /> <br />
+                            If you're interested in collaborating, discussing job opportunities, or simply exchanging ideas, I'd love to hear from you. Feel free to explore my portfolio and reach out! ✌🏽
                         </Typography>
                     </Grid>
                     

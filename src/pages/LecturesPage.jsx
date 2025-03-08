@@ -26,7 +26,7 @@ export const LecturesPage = () => {
                         <Typography variant='h6'>ISND IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
-                            I had the honor of giving a lecture alongside my partner Josue Arreola for the students in my career on "Building a Career in Web Development" 🧑🏽‍💻. We shared a roadmap of key technologies and skills essential for anyone looking to master web development in today’s fast-paced digital world. From front-end frameworks to back-end tools, it was exciting to see so much enthusiasm from future developers eager to dive into the world of tech. 
+                            I had the honor of giving a lecture alongside my partner Josue Arreola for the students in my career on "Building a Career in Web Development". We shared a roadmap of key technologies and skills essential for anyone looking to master web development in today’s fast-paced digital world. From front-end frameworks to back-end tools, it was exciting to see so much enthusiasm from future developers eager to dive into the world of tech. 
                         </Typography>
                     </Grid>
 

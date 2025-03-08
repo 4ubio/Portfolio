@@ -19,8 +19,7 @@ export const EducationPage = () => {
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
-                            My educational journey in Systems and Digital Business Engineering has been a transformative and intellectually stimulating experience that has laid the foundation for my career in the dynamic intersection of technology and business.
-                            My decision to pursue a degree in Systems and Digital Business Engineering stemmed from a deep fascination with technology and a strong desire to leverage it as a catalyst for innovation in the business world. 
+                            Earning my degree in Systems and Digital Business Engineering has been a transformative and intellectually enriching experience, laying the foundation for my career at the intersection of technology and business. My passion for innovation and problem-solving drove me to pursue this field, allowing me to develop a strong technical and strategic mindset to leverage technology as a catalyst for business growth and efficiency.
                         </Typography>
                     </Grid>
 

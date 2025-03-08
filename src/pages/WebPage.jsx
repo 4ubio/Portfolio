@@ -6,7 +6,7 @@ export const WebPage = () => {
     return (
         <>
             <AppLayout>
-                <Typography variant='h3' textAlign='center' className='animate__animated animate__fadeInRight'>💼 Web experience</Typography>
+                <Typography variant='h3' textAlign='center' className='animate__animated animate__fadeInRight'>🌐 Web projects</Typography>
 
                 {/* Cafe 3.0 */}
                 <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
@@ -21,7 +21,7 @@ export const WebPage = () => {
                     </Grid>
 
                     <Grid item xs={12} md={7} p={{xs: 0, md: 2}}>
-                        <Typography variant='h6'>2022 - Today</Typography>
+                        <Typography variant='h6'>2022 - 2024</Typography>
                         <Typography variant='h4' color='primary.highlight'>Cafe 3.0</Typography>
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />

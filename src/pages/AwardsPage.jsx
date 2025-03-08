@@ -25,7 +25,7 @@ export const AwardsPage = () => {
                         <Typography variant='h6'>IEST Anáhuac</Typography>
                         <br />
                         <Typography variant='h7'>
-                            I once again had the honor of receiving an academic excellence award for my performance in the January–June 2024 semester, with a perfect 10 GPA. This marks the fourth time I've received this recognition, which continues to inspire me to pursue excellence. Being acknowledged for my hard work is always rewarding, and I am thankful to IEST Anáhuac for this honor. 🌟
+                            I once again had the honor of receiving an academic excellence award for my performance in the January–June 2024 semester, with a perfect 10 GPA. This marks the fourth time I've received this recognition, which continues to inspire me to pursue excellence. Being acknowledged for my hard work is always rewarding, and I am thankful to IEST Anáhuac for this honor.
                         </Typography>
                     </Grid>
 
