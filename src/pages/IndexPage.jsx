@@ -14,7 +14,7 @@ export const IndexPage = () => {
                             <Typography variant='h1' color='primary.highlight'>Sebastián Rubio</Typography>
                             <Typography variant='h6' color='primary.highlight'>
                                 <ReactTyped
-                                    strings={["Software Engineer", "CEO of Tamfy"]}
+                                    strings={["Software Engineer", "CEO of Tamfy", "Public Speaker"]}
                                     typeSpeed={50}
                                     backSpeed={50}
                                     loop
@@ -65,7 +65,7 @@ export const IndexPage = () => {
                     <Grid item mt={3} display='flex'>
                         <Favorite sx={{color: 'primary.highlight'}} />
                         <Typography variant='h7' ml={2}>
-                            Fun fact: I'm a sneakerhead 👟. Sneakers and clothing design is my personal passion.
+                            Fun fact: I'm a sneakerhead 👟. Sneakers and clothing design are my personal passion.
                         </Typography>
                     </Grid>
                 </Grid>
