@@ -7,9 +7,36 @@ export const AwardsPage = () => {
         <>
             <AppLayout>
                 <Typography variant='h3' textAlign='center' className='animate__animated animate__fadeInRight'>🏆 Awards</Typography>
+                
+                {/* Highest honors */}
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                    <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
+                        <Carousel animation='slide' duration='800' autoPlay>
+                            <img src='./assets/AW6/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW6/2.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW6/3.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW6/4.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                            <img src='./assets/AW6/5.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
+                        </Carousel>
+                    </Grid>
+
+                    <Grid item xs={12} md={8} p={{xs: 0, md: 2}}>
+                        <Typography variant='h6'>March 2025</Typography>
+                        <Typography variant='h4' color='primary.highlight'>🥇 Highest honors</Typography>
+                        <Typography variant='h6'>IEST Anáhuac</Typography>
+                        <br />
+                        <Typography variant='h7'>
+                            On March 2025, I had the honor of graduating with a degree in Systems and Digital Business Engineering. Not only did I receive my degree, but I was also awarded highest honors, an academic distinction given to the graduate with the highest GPA in the career, which was a 9.87. This achievement wouldn't have been possible without the unwavering support of my parents, friends, and professors, to whom I owe a great deal of gratitude for their guidance throughout my academic journey. 
+                        </Typography>
+                    </Grid>
+
+                    <Grid item xs={12} m={2} textAlign='center'>
+                        <img src='./assets/vline.png' className='line'></img>
+                    </Grid>
+                </Grid>
 
                 {/* Academic excellence 2024 - 2 */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW5/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -35,7 +62,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Academic excellence 2024 - 1 */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW4/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -61,7 +88,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Academic excellence 2023 */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW3/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -88,7 +115,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Essay */}
-                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
+                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW2/1.JPG' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
@@ -114,7 +141,7 @@ export const AwardsPage = () => {
                 </Grid>
 
                 {/* Academic excellence 2022 */}
-                <Grid container mt={2} className='animate__animated animate__fadeInLeft'>
+                <Grid container mt={2} className='animate__animated animate__fadeInRight'>
                     <Grid item xs={12} md={4} p={{xs: 0, md: 2}}>
                         <Carousel animation='slide' duration='800' autoPlay>
                             <img src='./assets/AW1/1.jpg' className='carousel_img_3 box-shadow' style={{marginLeft: "auto", marginRight: "auto", display: "flex", justifyContent: "center"}}></img>
